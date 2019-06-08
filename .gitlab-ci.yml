@@ -10,8 +10,9 @@ test:
   - export DATABASE_URL=postgres://postgres:@postgres:5432/python-test-app
   - apt-get update -qy
   - apt-get install -y python-dev python-pip
+  - apt-get install python3.6
   - pip install -r requirements.txt
-  - python3 manage.py test
+  - python manage.py test
 
 staging:
   stage: deploy
