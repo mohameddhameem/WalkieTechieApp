@@ -9,7 +9,7 @@ A simple Django based webapp. Has below capability :
   <li>Follow Other users</li>
   <li>Like and Comment other user Post</li>
 </ul>
-<br/>Will be updated to have below feature
+Will be updated to have below feature
 <br/>1. Docker
 <br/>2. CI/CD Pipeline
 <br/>3. MongoDB
