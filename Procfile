@@ -1,1 +1,1 @@
-web: gunicorn WalkieTechieApp.wsgi --log-file -
+web: gunicorn WalkieTechieApp:app
