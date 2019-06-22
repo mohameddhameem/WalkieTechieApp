@@ -8,7 +8,7 @@ services:
 variables:
   POSTGRES_DB: dfqidqn21ah4e6
   POSTGRES_USER: plrcxuvelqmsmc
-  POSTGRES_PASSWORD: =$DB_PASSWORD
+  POSTGRES_PASSWORD: $DB_PASSWORD
 
 test:
   stage: test
