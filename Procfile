@@ -1,1 +1,1 @@
-web: gunicorn WalkieTechieApp:app
+web: python WalkieTechieApp/manage.py runserver "0.0.0.0:$PORT"
