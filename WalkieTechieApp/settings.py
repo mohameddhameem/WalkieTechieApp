@@ -81,23 +81,23 @@ WSGI_APPLICATION = 'WalkieTechieApp.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME' : 'dfqidqn21ah4e6',
-        'USER' : 'plrcxuvelqmsmc',
-        'PASSWORD': '2d073380ee022a7db5d926a417f6a4589047ae33d81f38cbdc65a1c8a9f04b1e',
-        'HOST' : 'ec2-54-235-104-136.compute-1.amazonaws.com:5432/dfqidqn21ah4e6',
-        'PORT' : '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-}
+ }
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE' : 'django.db.backends.postgresql_psycopg2',
+#        'NAME' : 'dfqidqn21ah4e6',
+#        'USER' : 'plrcxuvelqmsmc',
+#        'PASSWORD': '2d073380ee022a7db5d926a417f6a4589047ae33d81f38cbdc65a1c8a9f04b1e',
+#        'HOST' : 'ec2-54-235-104-136.compute-1.amazonaws.com:5432/dfqidqn21ah4e6',
+#        'PORT' : '5432'
+#    }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
