@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'WalkieTechieApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        'NAME' : 'project_ci_test',
-        'USER' : 'postgres',
-        'PASSWORD': '',
-        'HOST' : 'postgres',
+        'NAME' : 'dfqidqn21ah4e6',
+        'USER' : 'plrcxuvelqmsmc',
+        'PASSWORD': '2d073380ee022a7db5d926a417f6a4589047ae33d81f38cbdc65a1c8a9f04b1e',
+        'HOST' : 'postgres://plrcxuvelqmsmc:2d073380ee022a7db5d926a417f6a4589047ae33d81f38cbdc65a1c8a9f04b1e@ec2-54-235-104-136.compute-1.amazonaws.com:5432/dfqidqn21ah4e6',
         'PORT' : '5432'
     }
 }
