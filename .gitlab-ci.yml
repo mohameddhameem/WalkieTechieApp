@@ -2,12 +2,19 @@ stages:
   - test
   - deploy
 
+services:
+    - postgres:9.3
+
+variables:
+  POSTGRES_DB: project_walkietechie_app
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: ""
 
 test:
   stage: test
   script:
   # this configures Django application to use attached postgres database that is run on `postgres` host
-  - export DATABASE_URL=postgres://postgres:@postgres:5432/python-test-app
+  - export DATABASE_URL=postgres://postgres:@postgres:5432/project_walkietechie_app
   - apt-get update -qy
   - apt-get install -y python-dev python-pip
   #- add-apt-repository ppa:deadsnakes/ppa no need of this
