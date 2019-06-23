@@ -17,7 +17,7 @@ test:
   - apt-get update
   - apt-get install python3
   - pip install -r requirements.txt
-  - python ./manage.py test
+  #- python ./manage.py test for now commenting it
 
 staging:
   stage: deploy
