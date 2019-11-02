@@ -1,4 +1,4 @@
-django==1.8.4
+django==1.11.23
 #django==1.11.19
 django-braces==1.8.1
 django-crispy-forms==1.5.1
